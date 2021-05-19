@@ -23,3 +23,7 @@ cacheModel. preloadVideoWithUrls(list,0.2,(ret)=>{
 
 方法3、传入一个 音视频url地址 返回缓存的url地址
 assetURLWithURL
+调用方式
+cacheModel. assetURLWithURL(url,(ret)=>{
+
+})
