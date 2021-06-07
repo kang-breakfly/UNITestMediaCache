@@ -44,7 +44,8 @@ compressVideoWithURLV2
 这两个方法都可以使用，他们使用了两种不同的方式来实现的视频压缩
 
 成功返回 {"url":<压缩后的视频地址>,"size":<视频文件大小单位是M>,"duration":<视频时长单位是s>,"width":<视频宽度>,"height":<视频高度>}
-返回返回 1
+
+失败返回 1
 
 调用方式 
 cacheModel.compressVideoWithURLV2(url,(ret)=>{
